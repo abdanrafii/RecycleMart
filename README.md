@@ -1,3 +1,11 @@
+## Tutorial Instalasi
+
+1. Buka folder yang bisa dijalankan laravel, lalu clone repository.
+2. Dalam folder RecycleMart, jalankan composer install dan composer update pada terminal (pastikan composer sudah terinstall).
+3. Jalankan npm install dan npm run build pada terminal (pastikan nodejs sudah terinstall).
+4. Jalankan php artisan serve pada terminal lalu klik link port yang diberikan.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
