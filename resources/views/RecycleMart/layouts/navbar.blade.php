@@ -13,7 +13,7 @@
         </ul>
 
         <div class="mb-3">
-          <input type="text" class="form-control" id="search" placeholder="Cari di sini...">
+          <input type="text" class="form-control search" id="search" placeholder="Cari di sini...">
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"

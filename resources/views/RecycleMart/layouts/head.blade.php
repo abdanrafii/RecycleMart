@@ -32,7 +32,7 @@
             background-color: #606C38 !important;
         }
 
-        .form-control {
+        .form-control.search {
             border: none;
             border-bottom: 1px solid black;
             border-radius: 0;
@@ -46,14 +46,131 @@
             border-bottom: 2px solid black;
         }
 
-        .navbar-toggler{
+        .navbar-toggler {
             border: none !important;
         }
 
-        .card{
+        .card.image {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px #0000001a;
+            max-width: 250px;
+        }
+
+        .card.image.profil {
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0px 0px 0px #0000001a;
+            max-width: 70px;
+        }
+
+        .card {
             border: none;
             border-radius: 20px;
-            box-shadow: 0px 6px 4px #0000001a, 0px -1px 4px #0000001a;;
+            box-shadow: 0px 6px 4px #0000001a, 0px -1px 4px #0000001a;
+        }
+
+        .btn {
+            background-color: #BC6C25;
+            color: white;
+            border: none;
+            font-size: 14px;
+            padding: 8px 8px;
+            cursor: pointer;
+            max-width: 250px;
+        }
+
+        .btn.kelola {
+            background-color: transparent;
+            color: #BC6C25;
+            border: none;
+            font-size: 11px;
+            padding: 3px 3px;
+            cursor: pointer;
+        }
+
+        .btn.outline {
+            background-color: transparent;
+            color: #BC6C25;
+            border: 1px solid #BC6C25;
+            font-size: 14px;
+            padding: 8px 8px;
+            cursor: pointer;
+            max-width: 250px;
+        }
+
+        .btn:hover {
+            background-color: #A55D21;
+        }
+
+        .btn.outline:hover {
+            background-color: #fff5ec;
+            color: #BC6C25;
+        }
+
+        .btn.kelola:hover {
+            background-color: transparent;
+            color: #BC6C25;
+            font-weight: bold;
+        }
+
+        .col-form-label {
+            font-weight: bold;
+            font-size: 11pt;
+        }
+
+        .form-control.data {
+            box-shadow: inset 0 0px 2px #49494966;
+            border-radius: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            margin-top: 5px;
+            height: 30px;
+            font-size: 11pt;
+        }
+
+        .inline-form {
+            display: flex;
+            align-items: center;
+            margin: 0px;
+        }
+
+        h6 {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .deskripsi.lacak {
+            font-size: 11pt;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .deskripsi.kelola {
+            font-size: 11pt;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .form-check-input {
+            margin-left: 8px;
+            width: 20px;
+            height: 20px;
+            appearance: none;
+            border: 1px solid #606C38;
+            cursor: pointer;
+        }
+
+        .form-check-input:checked {
+            background-color: #606C38;
+            border-color: #606C38;
         }
     </style>
 </head>
