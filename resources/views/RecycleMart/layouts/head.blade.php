@@ -68,7 +68,7 @@
             border: none;
             border-radius: 10px;
             box-shadow: 0px 0px 0px #0000001a;
-            max-width: 250px;
+            
         }
 
         .card.image.profil {
@@ -91,7 +91,6 @@
             font-size: 14px;
             padding: 8px 8px;
             cursor: pointer;
-            max-width: 250px;
         }
 
         .btn.kelola {
@@ -110,7 +109,6 @@
             font-size: 14px;
             padding: 8px 8px;
             cursor: pointer;
-            max-width: 250px;
         }
 
         .btn:hover {
@@ -209,6 +207,11 @@
             border-radius: 25px;
             box-shadow: 0px 6px 4px #0000001a, 0px -1px 4px #0000001a;
             width: 
+        }
+
+        body{
+            padding-left: 30px;
+            padding-right: 30px;
         }
     </style>
 </head>

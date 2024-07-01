@@ -17,7 +17,7 @@
                 </div>
                 <div class="row" style="margin-bottom:18px">
                     <div class="col-auto" style="flex: 0 0 155px;">
-                        <div class="card image" id="barang" style="margin-bottom:10px">
+                        <div class="card image" id="barang" style="margin-bottom:10px; max-width: 250px;">
                             <img src="{{ asset('build/assets/barang.png') }}" class="card-img">
                         </div>
                     </div>

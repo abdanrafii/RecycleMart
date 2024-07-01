@@ -17,7 +17,7 @@
                         </div>
 
                         <!-- Button -->
-                        <div class="d-grid gap-2">
+                        <div class="d-grid gap-2" style="max-width: 250px;">
                             <button class="btn" type="button">Ubah Logo</button>
                             <button class="btn outline" type="button" style="margin-bottom: 40px">Hapus Logo</button>
                         </div>
