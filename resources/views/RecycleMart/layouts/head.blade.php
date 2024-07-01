@@ -29,7 +29,7 @@
         }
 
         .offcanvas.offcanvas-end {
-            background-color: #606C38 !important;
+            background-color: #283618 !important;
         }
 
         .form-control.search {
@@ -38,7 +38,21 @@
             border-radius: 0;
             padding-left: 0;
             height: 22px;
-            margin-top: 16px;
+        }
+
+        .form-control.sign {
+            border: none;
+            border-bottom: 1px solid #606C38;
+            border-radius: 0;
+            height: 22px;
+            margin-bottom: 20px;
+
+        }
+
+        .form-control.sign::placeholder {
+            color: #606C38;
+            font-size: 10pt;
+            opacity: 1;
         }
 
         .form-control:focus {
@@ -171,6 +185,30 @@
         .form-check-input:checked {
             background-color: #606C38;
             border-color: #606C38;
+        }
+
+        .sidebar-nav {
+            color: #BCC69A !important;
+            font-size: 10pt;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .logout {
+            color: #BCC69A !important;
+            font-size: 14pt;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .card.sign {
+            width: 450px;
+            border: 5px solid #606C38;
+            padding: 10px;
+            align-self: center;
+            border-radius: 25px;
+            box-shadow: 0px 6px 4px #0000001a, 0px -1px 4px #0000001a;
+            width: 
         }
     </style>
 </head>
